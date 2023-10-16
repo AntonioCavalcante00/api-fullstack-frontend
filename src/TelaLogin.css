@@ -1,0 +1,74 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #000;
+}
+
+.Container {
+  padding: 10vh;
+  border-radius: 20px;
+  box-shadow: 3px 6px 18px 5px #000;
+  background-color: #FFFFFF;
+  min-width: 300px;
+}
+
+.Icon-Logo{
+  display: flex;
+  margin: 12px;
+  justify-content: center;
+  height: 150px;
+}
+
+.Title{
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+  font-weight: 600;
+  color: #056F07;
+}
+
+.Icon{
+  display: flex;
+  position: absolute;
+  size: 90px;
+  margin: 20px 0px;
+}
+
+.Campo-Group {
+  display: flex;
+  padding: 20px 20px;
+}
+
+label {
+  display: flex;
+  position: absolute;
+  margin: 20px 20px;
+}
+
+
+input{
+  border: none;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  padding: 13px 12px;
+  width: 250px;
+}
+
+.Button{
+  border: none;
+  background-color: #056F07;
+  color: #FFFFFF;
+  padding: 9px 30px;
+  border-radius: 19px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Button:hover{
+  cursor: pointer;
+  transition: 1.0s;
+  background-color: #D1941B;
+}
