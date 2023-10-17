@@ -9,6 +9,7 @@ form {
 
 .Container {
   padding: 10vh;
+  position: relative;
   border-radius: 20px;
   box-shadow: 3px 6px 18px 5px #000;
   background-color: #FFFFFF;
@@ -34,41 +35,66 @@ form {
   display: flex;
   position: absolute;
   size: 90px;
-  margin: 20px 0px;
+  margin: 14px 2px;
+}
+
+.Eye{
+  display: flex;
+  position: absolute;
+  margin: 14px 260px;
+  border: none;
+  background-color: transparent;
+}
+
+.Eye:hover{
+  cursor: pointer;
 }
 
 .Campo-Group {
-  display: flex;
+
+  align-items: center;
   padding: 20px 20px;
 }
-
-label {
-  display: flex;
-  position: absolute;
-  margin: 20px 20px;
-}
-
 
 input{
   border: none;
   background-color: #F6F6F6;
-  border-radius: 20px;
-  padding: 13px 12px;
+  border-radius: 18px;
+  padding: 13px 21px;
   width: 250px;
+  font: 15px;
+}
+
+input::placeholder{
+  padding: 0 2px;
+  color: black;
+  font-size: 15px;
 }
 
 .Button{
+  display: flex;
+  justify-content: center;
   border: none;
   background-color: #056F07;
   color: #FFFFFF;
-  padding: 9px 30px;
+  padding: 9px 25px;
   border-radius: 19px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
+  margin: 0 auto;
 }
 
 .Button:hover{
   cursor: pointer;
   transition: 1.0s;
   background-color: #D1941B;
+}
+
+.Remember input{
+
+}
+
+.Help-A:link, .Help-A:visited{
+  color: #056F07;
+  text-decoration: none;
 }
