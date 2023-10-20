@@ -18,9 +18,9 @@ form {
 
 .Icon-Logo{
   display: flex;
-  margin: 12px;
+  margin: 4px;
   justify-content: center;
-  height: 150px;
+  height: 170px;
 }
 
 .Title{
@@ -31,42 +31,31 @@ form {
   color: #056F07;
 }
 
+.Campo-Group {
+  align-items: center;
+  padding: 14px 20px;
+}
+
+
 .Icon{
   display: flex;
   position: absolute;
   size: 90px;
-  margin: 14px 2px;
-}
-
-.Eye{
-  display: flex;
-  position: absolute;
-  margin: 14px 260px;
-  border: none;
-  background-color: transparent;
-}
-
-.Eye:hover{
-  cursor: pointer;
-}
-
-.Campo-Group {
-
-  align-items: center;
-  padding: 20px 20px;
+  margin: 16px 5px;
 }
 
 input{
   border: none;
-  background-color: #F6F6F6;
+  background-color: #dddddd;
   border-radius: 18px;
-  padding: 13px 21px;
+  padding: 13px 24px;
   width: 250px;
-  font: 15px;
+  font-size: 15px;
 }
 
-input::placeholder{
+input:hover::placeholder{
   padding: 0 2px;
+  transition: 0.4s ease-in;
   color: black;
   font-size: 15px;
 }
@@ -81,20 +70,66 @@ input::placeholder{
   border-radius: 19px;
   font-size: 15px;
   font-weight: 600;
-  margin: 0 auto;
+  margin: 11px auto;
+  margin-top: 43px;
 }
 
 .Button:hover{
   cursor: pointer;
-  transition: 1.0s;
+  transition: 0.8s;
   background-color: #D1941B;
 }
 
-.Remember input{
-
+.Eye{
+  display: flex;
+  position: absolute;
+  margin: 18px 273px;
+  border: none;
+  background-color: transparent;
 }
 
-.Help-A:link, .Help-A:visited{
+.Eye:hover{
+  cursor: pointer;
+}
+
+.Container2{
+  margin-top: 23px;
+}
+
+.Remember{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  margin: 0px 32px;
+  color: #056F07;
+  transition: color 0.4s ease-in-out;
+}
+
+.Remember input{
+  display: flex;
+  position: absolute;
+  margin: 6px -11px;
+  cursor: pointer;
+}
+
+.Remember:hover{
+  color: #78b84a;
+}
+
+.Links{
+  display: flex;
+  position: absolute;
+  margin: 0px 275px;
+}
+
+.Help-A{
   color: #056F07;
   text-decoration: none;
+  transition: color 0.4s ease-in-out;
 }
+
+.Help-A:hover{
+  color: #78b84a;
+}
+
+

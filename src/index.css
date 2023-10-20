@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url(./assets/wallpaper_fundo.png);
+  background-image: url(./img/wallpaper_fundo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
