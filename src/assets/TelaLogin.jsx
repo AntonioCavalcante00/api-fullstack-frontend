@@ -2,7 +2,7 @@ import './TelaLogin.css';
 
 import { AiOutlineUser } from 'react-icons/ai';
 
-import Icone_Logo from '../assets/icone_logo.png';
+import Icone_Logo from '../img/icone_logo.png';
 import PasswordHide from './PasswordHide';
 
 function App() {
