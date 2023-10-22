@@ -5,9 +5,22 @@ form {
   justify-content: center;
   height: 100vh;
   color: #000;
+  animation: fadeIn 2.1s alternate;
 }
 
-.Container {
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Container_Login {
   padding: 10vh;
   position: relative;
   border-radius: 20px;
@@ -16,35 +29,42 @@ form {
   min-width: 300px;
 }
 
-.Icon-Logo{
-  display: flex;
-  margin: 4px;
-  justify-content: center;
-  height: 170px;
-}
-
-.Title{
+.Title_Login {
   display: flex;
   margin: 25px;
   justify-content: center;
+  font-size: 20px;
   font-weight: 600;
   color: #056F07;
 }
 
-.Campo-Group {
+.Icon_Logo {
+  display: flex;
+  margin: 4px;
+  justify-content: center;
+  height: 120px;
+}
+
+.Group_Login {
   align-items: center;
   padding: 14px 20px;
 }
 
+.error {
+  color: red;
+  font-size: 12px;
+}
 
-.Icon{
+.Icon_User {
   display: flex;
   position: absolute;
   size: 90px;
-  margin: 16px 5px;
+  margin: 14px 4px;
+  width: 20px;
+  height: 20px;
 }
 
-input{
+input {
   border: none;
   background-color: #dddddd;
   border-radius: 18px;
@@ -53,14 +73,14 @@ input{
   font-size: 15px;
 }
 
-input:hover::placeholder{
+input:hover::placeholder {
   padding: 0 2px;
   transition: 0.4s ease-in;
   color: black;
   font-size: 15px;
 }
 
-.Button{
+.Button_Login {
   display: flex;
   justify-content: center;
   border: none;
@@ -74,29 +94,18 @@ input:hover::placeholder{
   margin-top: 43px;
 }
 
-.Button:hover{
+.Button_Login:hover {
   cursor: pointer;
   transition: 0.8s;
   background-color: #D1941B;
 }
 
-.Eye{
-  display: flex;
-  position: absolute;
-  margin: 18px 273px;
-  border: none;
-  background-color: transparent;
-}
 
-.Eye:hover{
-  cursor: pointer;
-}
-
-.Container2{
+.Container_Login2 {
   margin-top: 23px;
 }
 
-.Remember{
+.Remember_Checkbox {
   display: flex;
   justify-content: flex-end;
   position: absolute;
@@ -105,31 +114,13 @@ input:hover::placeholder{
   transition: color 0.4s ease-in-out;
 }
 
-.Remember input{
+.Remember_Checkbox input {
   display: flex;
   position: absolute;
   margin: 6px -11px;
   cursor: pointer;
 }
 
-.Remember:hover{
+.Remember_Checkbox:hover {
   color: #78b84a;
 }
-
-.Links{
-  display: flex;
-  position: absolute;
-  margin: 0px 275px;
-}
-
-.Help-A{
-  color: #056F07;
-  text-decoration: none;
-  transition: color 0.4s ease-in-out;
-}
-
-.Help-A:hover{
-  color: #78b84a;
-}
-
-
